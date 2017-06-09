@@ -1,4 +1,4 @@
-class kubeless < Formula
+class Kubeless < Formula
   desc "Kubernetes Native Serverless Framework"
   homepage "https://github.com/kubeless"
   version "0.0.13"
