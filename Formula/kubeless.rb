@@ -3,13 +3,8 @@ class Kubeless < Formula
   homepage "https://github.com/kubeless"
   version "0.0.13"
 
-  if MacOS.prefer_64_bit?
-    url "https://github.com/kubeless/kubeless/releases/download/0.0.13/kubeless_darwin-amd64.zip"
-    sha256 "407c2b211ee244ffad4a156ef148165087726d82829587fd6e5e908f21d9807f"
-  else
-    url "https://github.com/kubeless/kubeless/releases/download/0.0.13/kubeless_darwin-386.zip"
-    sha256 "63a59e7aec6cfb6badf88f410dae046e7437c5da7ba5ee622ca6ae30e6d75417"
-  end
+  url "https://github.com/kubeless/kubeless/releases/download/0.0.13/kubeless_darwin-amd64.zip"
+  sha256 "407c2b211ee244ffad4a156ef148165087726d82829587fd6e5e908f21d9807f"
 
   bottle :unneeded
 
