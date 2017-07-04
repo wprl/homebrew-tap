@@ -9,7 +9,7 @@ class Kubeless < Formula
   bottle :unneeded
 
   def install
-    bin.install "kubeless"
+    bin.install "kubeless_darwin-amd64/kubeless"
   end
 
   def caveats; <<-EOS.undent
