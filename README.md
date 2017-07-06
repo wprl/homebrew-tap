@@ -6,7 +6,7 @@ Install the kubeless CLI via [homebrew](http://brew.sh) on OSX.
 
 You can either directly install a software with:
 
-    $ brew install kubless/tap/kubeless
+    $ brew install kubeless/tap/kubeless
 
 Or add the kubeless tap to your Homebrew installation:
 
