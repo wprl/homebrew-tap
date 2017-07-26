@@ -1,10 +1,10 @@
 class Kubeless < Formula
   desc "Kubernetes Native Serverless Framework"
   homepage "https://github.com/kubeless"
-  version "0.0.16"
+  version "0.0.18"
 
-  url "https://github.com/kubeless/kubeless/releases/download/0.0.16/kubeless_darwin-amd64.zip"
-  sha256 "c9a9b401021e106df7780318b4158113e22145a0f827d30638e6b781b56afe7c"
+  url "https://github.com/kubeless/kubeless/releases/download/0.0.18/kubeless_darwin-amd64.zip"
+  sha256 "404b5c4ea046409e5781b33b5f3a143ce78c7bc40bf5a56c646253ef5c8c45f5"
 
   bottle :unneeded
 
@@ -16,7 +16,7 @@ class Kubeless < Formula
     To use kubeless you need a running Kubernetes cluster
     Try `kubectl version` to make sure you are ready
     Then launch the kubeless controller with:
-    `kubectl create -f https://github.com/kubeless/kubeless/releases/download/0.0.16/kubeless-0.0.16.yaml`
+    `curl -sL https://github.com/kubeless/kubeless/releases/download/0.0.18/kubeless-0.0.18.yaml | kubectl create -f -`
     EOS
   end
 
