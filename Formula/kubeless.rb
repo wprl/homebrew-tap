@@ -4,7 +4,7 @@ class Kubeless < Formula
   version "v0.1.0"
 
   url "https://github.com/kubeless/kubeless/releases/download/v0.1.0/kubeless_darwin-amd64.zip"
-  sha256 "c608cd63422c1e225b9f044b82ee98d71af3bd2c25de322fbe9c9aa51fba919f"
+  sha256 "8d1eadfc5e519048da801d26117aee9e84c07cc3a069787f89bca519f8a0bd6f"
 
   bottle :unneeded
 
